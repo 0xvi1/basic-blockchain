@@ -16,7 +16,7 @@ func main() {
 
 	// add blocks to the chain
 	fmt.Print("Adding the second block")
-	blockChain.AddBlock("Send 1 ETH to Vitalik Buterin!")
+	blockChain.AddBlock("Send 1 ETH to Vitalik Buterin")
 	fmt.Println(" --> time taken:", time.Since(timeStart))
 
 	fmt.Print("Adding the third block")
