@@ -31,12 +31,12 @@ func main() {
 
 	// print the blocks
 	for i, block := range blockChain.Blocks {
-		fmt.Println("----------------------------")
+		fmt.Println("---------------------------")
 		fmt.Println("Block number:", i)
 		fmt.Println("Data:", string(block.Data))
 		fmt.Printf("PrevBlockHash: %x\n", block.PrevBlockHash)
 		fmt.Printf("Hash: %x\n", block.Hash)
-		fmt.Println("----------------------------")
+		fmt.Println("---------------------------")
 		fmt.Println()
 	}
 }
